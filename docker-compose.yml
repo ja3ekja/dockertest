@@ -1,0 +1,9 @@
+version: '2.1'
+services: 
+  jackaubuntu:
+    image: ja3ekja/ubuntu:5.0
+    entrypoint: /bin/bash
+    stdin_open: true
+    tty: true
+    volumes:
+     - "~/:/root/host"
